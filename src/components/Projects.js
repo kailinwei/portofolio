@@ -237,7 +237,7 @@ export default function Projects() {
               <CardMedia
                 component="img"
                 height="300"
-                image="/images/MekaWei.png"
+                image="/images/Flirtigo.png"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
