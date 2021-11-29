@@ -96,6 +96,13 @@ export default function Aboutme() {
                 daily life. Therefore, I decided to study Full Stack Web
                 Development at BCIT where I learnt about web application
                 development tools and technologies. 
+                <br /><br />
+                I like working with people and in
+                teams because different team members contribute different
+                perspectives, and the synergy between team members can produce
+                creative and productive results. I find problem solving
+                engaging, especially the challenge of analyzing problems and the
+                feeling of accomplishment when I discover a solution. 
               </Text>
             </TitleHolder>
 
@@ -104,17 +111,17 @@ export default function Aboutme() {
             <TitleHolder>
               <Title2>Skills</Title2>
               <Text>
-                I am currently learning
-                HTML, CSS, React.js, JavaScript, PHP, TypeScript, Express.js, Node.js,
-                MySQL, OOP, unit testing, Agile Scrum methodologies, Git, UX/UI
-                design principles, and Figma.
+                I am currently learning: 
+                <ul>
+                  <li>Front End:  HTML, CSS, React.js, JavaScript, TypeScript <br /></li>
+                  <li> Backend: Express.js, Node.js, MySQL <br /></li>
+                  <li> Tools: unit testing, Git, Figma, and Trello Board.</li>
+                  <li> Others: OOP, Agile Scrum methodologies, UX/UI design principles, </li>
+                </ul>
+                
+               
+       
                 <br /><br />
-                I like working with people and in
-                teams because different team members contribute different
-                perspectives, and the synergy between team members can produce
-                creative and productive results. I find problem solving
-                engaging, especially the challenge of analyzing problems and the
-                feeling of accomplishment when I discover a solution. 
               </Text>
             </TitleHolder>
 
