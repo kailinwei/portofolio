@@ -16,6 +16,7 @@ gap:3%;
 margin:auto;
 margin-top:3vh;
 margin-bottom:3vh;
+line-height:2;
 `;
 
 
@@ -41,7 +42,16 @@ margin-bottom:2vh;
 `
 
 
-
+const Explain = styled.div`
+align-items:center;
+justify-content:center;
+gap:10px;
+// padding: 0.2rem calc((100vw - 1000px) / 2);
+padding-left:15%;
+padding-right:15%;
+line-height:2;
+margin-bottom: 3vh;
+`
 export default function Projects() {
     return (
       <Container>
@@ -52,12 +62,16 @@ export default function Projects() {
         <h2>Hackathon projects</h2>
         <ProjectHolder>
           <Card sx={{ maxWidth: 480 }}>
-            <CardActionArea>
+            <CardActionArea
+              href="https://farmerce-2021.herokuapp.com/"
+              alt="lead to the website"
+              target="_blank"
+            >
               <CardMedia
                 component="img"
                 height="300"
                 image="/images/farmerce.png"
-                alt="Hackathon project"
+                alt="Opening the website"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
@@ -90,11 +104,30 @@ export default function Projects() {
               >
                 Check the Website
               </Button>
+
+              <Button
+                style={{
+                  borderRadius: 60,
+                  color: "#2F2E4C",
+                  borderColor: "#2F2E4C",
+                }}
+                variant="outlined"
+                size="small"
+                color="primary"
+                href="https://www.youtube.com/watch?v=fhAQmLpYnxQ&t=2s"
+                target="_blank"
+              >
+                Video We Made
+              </Button>
             </CardActions>
           </Card>
 
           <Card sx={{ maxWidth: 480 }}>
-            <CardActionArea>
+            <CardActionArea
+              href="http://embrace-foundation2021.herokuapp.com/"
+              alt="Lead to the the website"
+              target="_blank"
+            >
               <CardMedia
                 component="img"
                 height="300"
@@ -129,7 +162,7 @@ export default function Projects() {
                 variant="outlined"
                 size="small"
                 color="primary"
-                href="embrace-foundation2021.herokuapp.com"
+                href="http://embrace-foundation2021.herokuapp.com/"
                 alt="Lead to the the website"
                 target="_blank"
               >
@@ -140,9 +173,31 @@ export default function Projects() {
         </ProjectHolder>
 
         <h2>Here are my School IDSP projects</h2>
+        <Explain>
+          <Typography>
+            <b>Interdisciplinary Student Project (IDSP)</b> is the project-based
+            course in BCIT Full-Stack Web Development Diploma Program (FSWD).
+            This course is designed to mimic the real-world working environment
+            for developers. <br />
+            <br />
+            Over the four-month period, I worked as a Full-stack Web Developer,
+            collaborated with 2 other student developers and 3 students from the
+            Digital Design School to create a Web site from scratch. Once the
+            project was finished, we presented our work in front of Industry
+            guests and hundreds of students and instructors from BCIT.
+            <br /> <br />
+            In addition to programming, the work we demonstrated included Web
+            app ideation, Project planning, collaboration skills, communication
+            skills, and presentation skills.
+          </Typography>
+        </Explain>
         <ProjectHolder>
           <Card sx={{ maxWidth: 480 }}>
-            <CardActionArea>
+            <CardActionArea
+              href="https://idsp3380-client.herokuapp.com/"
+              alt="Lead to the the website"
+              target="_blank"
+            >
               <CardMedia
                 component="img"
                 height="300"
@@ -151,7 +206,7 @@ export default function Projects() {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                IDSP: Mindful
+                  IDSP: Mindful
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   Mindful is focused on managing the user's mental health which
@@ -183,11 +238,30 @@ export default function Projects() {
               >
                 Check the Website
               </Button>
+
+              <Button
+                style={{
+                  borderRadius: 60,
+                  color: "#2F2E4C",
+                  borderColor: "#2F2E4C",
+                }}
+                variant="outlined"
+                size="small"
+                color="primary"
+                href="http://www.kellymenzul.ca/Mindful/"
+                alt="Lead to the the website"
+                target="_blank"
+              >
+               Progress Report Website
+              </Button>
             </CardActions>
           </Card>
 
           <Card sx={{ maxWidth: 480 }}>
-            <CardActionArea>
+            <CardActionArea
+              href="https://flirtigo.herokuapp.com/"
+              target="_blank"
+            >
               <CardMedia
                 component="img"
                 height="300"
@@ -227,11 +301,25 @@ export default function Projects() {
               >
                 Check the Website
               </Button>
+              <Button
+                style={{
+                  borderRadius: 60,
+                  color: "#2F2E4C",
+                  borderColor: "#2F2E4C",
+                }}
+                variant="outlined"
+                size="small"
+                color="primary"
+                href="https://www.youtube.com/watch?v=HdGN-PZfhqM&list=PLj7breDo38e08vgMT3NwiaYXtDToqNnxn&index=1"
+                target="_blank"
+              >
+                Video We Made
+              </Button>
             </CardActions>
           </Card>
-          </ProjectHolder>
+        </ProjectHolder>
 
-<ProjectHolder>
+        <ProjectHolder>
           <Card sx={{ maxWidth: 480 }}>
             <CardActionArea>
               <CardMedia
